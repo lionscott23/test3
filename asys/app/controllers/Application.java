@@ -41,8 +41,9 @@ public class Application extends Controller {
 		// usuario1.fecIng=23122014;
 		usuario1.nombre = "santo";
 		usuario1.password = "cedsdf";
-		usuario1.userName = "aceva";
+		usuario1.userName = "aceval";
 		usuario1.save();
+		
 	}
 
 }
