@@ -10,7 +10,7 @@
         <tbody>
             #{list docen, as:'docentes'}
                 <tr>
-                    <td>${docentes.nombre}</td>                    
+                    <td id=${docentes.nombre} onclick="vernombre(this);">${docentes.nombre}</td>                    
                     <td>${docentes.cedula}</td>              
                     
                 </tr>
